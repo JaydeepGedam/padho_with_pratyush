@@ -1,0 +1,156 @@
+{
+    "name": "Jaydeep Nitin Gedam",
+    "professional_summary": "Not specified",
+    "skills": [
+        "React.js",
+        "JavaScript",
+        "TypeScript",
+        "Next.js",
+        "Material UI",
+        "Tailwind CSS",
+        "HTML/CSS",
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "Express",
+        "Microsoft Azure",
+        "SQL Server",
+        "MongoDB",
+        "PostgreSQL",
+        "pgvector",
+        "Azure AI Search",
+        "Prompt Engineering",
+        "LLM Workflows",
+        "Selenium",
+        "pytest",
+        "Playwright MCP (POC)",
+        "Git",
+        "GitHub",
+        "MSAL",
+        "Azure AD",
+        "Postman",
+        "VS Code",
+        "Figma"
+    ],
+    "education": [
+        {
+            "institution": "Government College of Engineering, Amravati",
+            "degree": "Bachelor in Information Technology",
+            "field_of_study": null,
+            "graduation_year": "2024",
+            "achievements": []
+        },
+        {
+            "institution": "Government Polytechnic, Amravati",
+            "degree": "Diploma in Computer Science and Engineering",
+            "field_of_study": null,
+            "graduation_year": "2021",
+            "achievements": []
+        }
+    ],
+    "experience": [
+        {
+            "company": "Tata Consultancy Services (TCS)",
+            "designation": "Systems Engineer � AI.cloud",
+            "duration": "Aug 2024 � Present",
+            "responsibilities": [
+                "Contributed to GenAI Test Studio, building responsive frontend interfaces using React.js, Material UI, and Tailwind CSS for test suite management, synthetic data generation, and analytics dashboards.",
+                "Integrated UI modules with Python-based backend services (FastAPI), SQL Server, and authentication via MSAL and Azure AD.",
+                "Developed automated browser testing scripts using Python, Selenium WebDriver, and pytest; worked with Azure AI Search, prompt engineering workflows, and explored Playwright MCP for AI-assisted test automation (POC)."
+            ],
+            "technologies": [
+                "React.js",
+                "Material UI",
+                "Tailwind CSS",
+                "Python",
+                "FastAPI",
+                "SQL Server",
+                "MSAL",
+                "Azure AD",
+                "Selenium WebDriver",
+                "pytest",
+                "Azure AI Search",
+                "Prompt Engineering",
+                "Playwright MCP"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "EpisodicAI - Cognitive Memory Infrastructure Platform",
+            "description": "Built cognitive memory infrastructure for AI agents featuring a 4-factor ranked retrieval matrix (semantic, importance, confidence, recency decay) using FastAPI, PostgreSQL, and pgvector.",
+            "technologies": [
+                "FastAPI",
+                "PostgreSQL",
+                "pgvector"
+            ],
+            "features": [
+                "4-factor ranked retrieval matrix (semantic, importance, confidence, recency decay)",
+                "Autonomous memory extraction from conversational dialogue",
+                "Intelligent conflict resolution with automated superseding lineage tracking",
+                "Strict per-user tenant isolation"
+            ],
+            "responsibilities": [
+                "Designed and implemented the retrieval matrix architecture",
+                "Engineered autonomous memory extraction and conflict resolution mechanisms",
+                "Ensured tenant isolation and data security"
+            ]
+        },
+        {
+            "name": "Nayaan - Smart Device for Visually Impaired and Blind People",
+            "description": "Assistive device designed to address challenges faced by visually impaired individuals; worked on PaddleOCR Engine, DFRobot offline LLM model, NLP interface and frontend development. Conducted requirement analysis with 50+ blind students and faculties; published paper in Springer Journal.",
+            "technologies": [
+                "PaddleOCR Engine",
+                "DFRobot offline LLM model",
+                "NLP"
+            ],
+            "features": [
+                "Assistive device for visually impaired users",
+                "Requirement analysis with over 50 blind students and faculty",
+                "Patented solution (Application No: 202321065172)",
+                "Research paper published in Springer Journal"
+            ],
+            "responsibilities": [
+                "Developed OCR and LLM components",
+                "Implemented NLP interface and frontend",
+                "Led requirement gathering and user testing"
+            ]
+        },
+        {
+            "name": "VibeCraft - AI Content Generator & Scheduler",
+            "description": "Full-stack web application that generates marketing copy and blog posts with automated scheduling and auto-publishing to LinkedIn, audience targeting, and custom OpenAI key management.",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Vite",
+                "Tailwind CSS",
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ],
+            "features": [
+                "Generates marketing copy and blog posts",
+                "Automated scheduling and auto-publishing to LinkedIn",
+                "Audience targeting",
+                "Custom OpenAI key management",
+                "Multi-format export (Markdown, PDF, text)"
+            ],
+            "responsibilities": [
+                "Built frontend using React, TypeScript, Vite, and Tailwind CSS",
+                "Developed RESTful backend with Node.js, Express, and MongoDB",
+                "Implemented export functionalities and OpenAI integration"
+            ]
+        }
+    ],
+    "certifications": [
+        "Persistent Martian Internship - 7-week virtual internship with Persistent Systems",
+        "Web Development using python django - 3 months internship at Bitlance Tech Hub Pvt. Ltd."
+    ],
+    "achievements": [
+        "Published Patent for project Nayaan. Application No : 202321065172",
+        "Published Research Paper in Springer Journal for Nayaan",
+        "1st Runner up at BharatCon24 project pitching competition",
+        "Among the top 100 projects selected for the CIIA-3 exhibition held in Mumbai",
+        "Won district level student innovation challenge and selected for state level"
+    ]
+}
