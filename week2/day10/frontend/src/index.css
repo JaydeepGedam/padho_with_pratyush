@@ -1,0 +1,15 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #111318;
+}
+
+button,
+textarea {
+  font: inherit;
+}

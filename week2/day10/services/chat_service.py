@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 from services.llm_service import generate_response
-
+from services.memory_service import get_history, save_message, clear_history
 profile_path = Path("data") / "profile.json"
 
 
@@ -68,7 +68,7 @@ def load_profile():
 
     return profile
 
-def chat_with_profile(user_message: str):
+def chat_with_profile(user_message: str, session_id: str):
     profile = load_profile()
     profile_context = json.dumps(profile, indent=2)
 
@@ -78,17 +78,30 @@ def chat_with_profile(user_message: str):
 
     user_message = f"""{user_message}"""
 
+    history = get_history(session_id)
+
     messages = [
         {
             "role": "system",
             "content": system_prompt
         },
+        *history,
         {
             "role": "user",
             "content": user_message
         }
     ]
 
-    answer = generate_response(messages)
+    # 4. Generate and forward chunks
+    full_answer = ""
 
-    return answer
+    for chunk in generate_response(messages):
+
+        full_answer += chunk
+        yield chunk
+
+    # 5. Save conversation
+    save_message(session_id, "user", user_message)
+    save_message(session_id, "assistant", full_answer)
+
+    return full_answer
